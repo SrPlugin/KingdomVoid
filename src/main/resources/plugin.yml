@@ -1,0 +1,7 @@
+name: KingdomVoid
+version: '1.0-SNAPSHOT'
+main: me.srplugin.kingdomVoid.KingdomVoid
+api-version: '1.20'
+authors: [ SrCode ]
+description: Plugin para tpear a un jugador al spawn cuando caiga al vacio
+website: https://github.com/SrCode

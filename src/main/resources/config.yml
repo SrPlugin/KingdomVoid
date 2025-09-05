@@ -1,0 +1,17 @@
+#Plugin developed by SrCode
+#Property of Kingdomland Network
+#Discord: sebastiancheikh
+
+trigger-world: "Spawn"
+
+teleport:
+  min-block: 5
+  message: "&cHas sido teletransportado al spawn."
+  world: "Spawn"
+  x: 0.5
+  y: 130
+  z: 0.5
+  yaw: 89.40496826171875
+  pitch: -1.350007176399231
+  sound: "ENTITY_ENDERMAN_TELEPORT"
+  particle: "DRAGON_BREATH"
