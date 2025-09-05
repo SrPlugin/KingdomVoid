@@ -1,5 +1,6 @@
 package me.srplugin.kingdomVoid;
 
+import me.srplugin.kingdomVoid.commands.KingdomVoidCommand;
 import me.srplugin.kingdomVoid.events.VoidFallListener;
 import me.srplugin.kingdomVoid.utils.TeleportConfigLoader;
 import org.bukkit.Bukkit;
@@ -26,6 +27,8 @@ public final class KingdomVoid extends JavaPlugin {
         Particle teleportParticle = loader.getTeleportParticle();
 
         Bukkit.getPluginManager().registerEvents(new VoidFallListener(this, teleportLocation, triggerWorld, minBlockY, teleportMessage, teleportSound, teleportParticle), this);
+
+        getCommand("kingdomvoid").setExecutor(new KingdomVoidCommand(this));
     }
 
     public void onDisable() {

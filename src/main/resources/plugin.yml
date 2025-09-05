@@ -5,3 +5,8 @@ api-version: '1.20'
 authors: [ SrCode ]
 description: Plugin para tpear a un jugador al spawn cuando caiga al vacio
 website: https://github.com/SrCode
+commands:
+  kingdomvoid:
+    description: Main command of the plugin
+    aliases: [kv, kvd]
+    usage: /<command> <reload|info>
